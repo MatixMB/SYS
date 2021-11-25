@@ -1,0 +1,297 @@
+html {
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.1rem;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.log-nav-tel {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.8);  /*opacity al background*/
+    opacity: 1;
+    height: 4rem;
+}
+
+.barra-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.5rem;
+    background-color: black;
+    color: white;
+    font-family: 'K2D', sans-serif;
+    font-size: 0.8rem;
+    
+}
+
+header {
+    height: 35rem;
+    width: auto;
+    background-image: url(img/notebook-oficina.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    box-shadow: 0rem 0rem 2rem grey;
+}
+
+.titulo p {
+    font-family: 'Goldman', cursive;
+    background-color: black;
+    border-radius: 1rem;
+    padding: 0.1rem 1rem 0.1rem 1rem;
+    margin: 0;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0;
+    height: 26rem;
+    font-size: 2rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    opacity: unset;
+}
+
+.logo img {
+    width: 6rem;
+}
+
+.nav-li {
+    margin-right: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-li a {
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+}
+
+.categorias {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+}
+
+.cat-items :last-child {
+    margin-right: 0;
+}
+
+.categorias a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.cat-items {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cat-items a:hover {
+    border-radius: 12px;
+background: #707070;
+box-shadow:  5px 5px 10px #393939,
+             -5px -5px 10px #a7a7a7;
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 0.5s;
+}
+
+.cat-items a {
+    height: 100%;
+}
+
+.usuario {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'K2D', sans-serif;
+    opacity: 1;
+}
+
+.usuario p{
+    margin: 0;
+    font-size: medium;
+}
+
+.sesion a{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.registrate a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.usuario :hover {
+    font-size: large;
+    color: grey;
+    transition: 0.5s;
+}
+
+.mas-info :hover {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.mas-info a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+}
+
+.mas-info {
+    position: absolute;
+    right: 1rem;
+    top: 35rem;
+    color: white;
+    font-size: 0.7rem;
+}
+
+.mas-info :focus {
+    opacity: 1;
+    transition: 0.5s;
+    font-size: 0.8rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3rem;
+    background-color: rgb(219, 219, 219)
+}
+
+.info :hover {
+    border-radius: 10rem;
+    transition: 0.5s;
+}
+
+.info p {
+    margin-top: 1rem;
+}
+
+.sub-categorias {
+    width: auto;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: 2rem;
+}
+
+.sub-categorias a {
+    text-decoration: none;
+    color: white;
+}
+.basico {
+    width: 25rem;
+    height: 15rem;
+    background-color: rgb(100, 100, 100);
+    background-blend-mode: soft-light;
+    background-image: url(img/compare-fibre-JiOFFI3W7IA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 0.5rem rgb(5, 207, 5);
+}
+
+.basico ::after {
+    display: block;
+    position: absolute;
+    top: 50rem;
+    content: "";
+    background-color: black;
+}
+
+.oficina {
+    width: 25rem;
+    height: 15rem;
+    background-image: url(img/docusign-BbSBf5uv50A-unsplash.jpg);
+    background-color: rgb(100, 100, 100);
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 0.5rem rgb(5, 207, 5);
+}
+
+.gamer {
+    width: 25rem;
+    height: 15rem;
+    background-image: url(img/alex-haney-xWkRYoSf8_c-unsplash.jpg);
+    background-color: rgb(100, 100, 100);
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 0.5rem rgb(5, 207, 5);
+}
+
+.fondo-opaco {
+    background-color: black;
+    content: " ";
+    opacity: 0.5;
+}
+
+.titulo-sub-cat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 0;
+}
+
+.titulo-sub-cat ::after, .titulo-sub-cat ::before {
+    content: ' ';
+    position: absolute;
+    width: 12rem;
+    height: 0.3rem;
+    background-color: black;
+    top: 40.8rem;
+}
+
+.titulo-sub-cat ::after {
+    right: 15rem;
+}
+
+.titulo-sub-cat ::before {
+    left: 15rem;
+}
